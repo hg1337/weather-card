@@ -466,10 +466,10 @@ class WeatherCard extends LitElement {
         cursor: pointer;
         margin: auto;
         overflow: hidden;
-        padding-top: 1.3em;
-        padding-bottom: 1.3em;
-        padding-left: 1em;
-        padding-right: 1em;
+        padding-top: 0.75em;
+        padding-bottom: 0.75em;
+        padding-left: 0.75em;
+        padding-right: 0.75em;
         position: relative;
       }
 
@@ -491,10 +491,10 @@ class WeatherCard extends LitElement {
 
       .temp {
         font-weight: 300;
-        font-size: 4em;
+        font-size: 3em;
         color: var(--primary-text-color);
         position: absolute;
-        right: 1em;
+        right: 1.25em;
       }
 
       .tempc {
@@ -504,7 +504,7 @@ class WeatherCard extends LitElement {
         color: var(--primary-text-color);
         position: absolute;
         right: 1em;
-        margin-top: -14px;
+        margin-top: -9px;
         margin-right: 7px;
       }
 
@@ -523,7 +523,7 @@ class WeatherCard extends LitElement {
 
       .current {
         padding: 1.2em 0;
-        margin-bottom: 3.5em;
+        margin-bottom: 1.7em;
       }
 
       .variations {
@@ -574,7 +574,6 @@ class WeatherCard extends LitElement {
         text-align: center;
         color: var(--primary-text-color);
         border-right: 0.1em solid #d9d9d9;
-        line-height: 2;
         box-sizing: border-box;
       }
 
@@ -605,11 +604,11 @@ class WeatherCard extends LitElement {
       }
 
       .icon.bigger {
-        width: 10em;
-        height: 10em;
-        margin-top: -4em;
+        width: 6em;
+        height: 6em;
+        margin-top: -2.5em;
         position: absolute;
-        left: 0em;
+        left: 0.5em;
       }
 
       .icon {
